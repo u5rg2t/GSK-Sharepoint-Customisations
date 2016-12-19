@@ -1,0 +1,147 @@
+
+/* 
+======================================================================================================
+======================================================================================================
+======================================================================================================
+
+							File created by Scott Murray 15 December 2015
+				Some light touch(ish) adjustments to the SharePoint 2013 environment.
+
+======================================================================================================
+======================================================================================================
+======================================================================================================
+*/
+
+
+.hide{display:none;}
+
+/* Footer styling */
+#footer{text-align:left;}
+.sectionFooterInnertube{background-color:#fff; margin: 65px auto;padding:0;}
+.sectionFooterInnertube .columnLeft{text-align:left;}
+.sectionFooterInnertube .columnRight{    margin-top: 30px;font-weight: bold;}
+.sectionFooter{background-color:#fff;text-align:right;}
+
+#footer div{background-color:#fff !important;}
+#ctl00_PlaceHolderContactName_communitycontact{background-color:#fff; margin-bottom: 40px; padding:0;}
+#footer > strong{padding:0;}
+
+/* left menu styling */
+.ms-core-listMenu-verticalBox LI.static > UL.static > LI.static > .ms-core-listMenu-item{padding-left:0;}
+.ms-core-listMenu-verticalBox LI.static > UL.static > LI.static > a.selected{background-color: #fff; font-weight: bold; color:#e36633; background: url("https://connect.gsk.com/sites/ama/_layouts/15/IMAGES/GSK/gsk_basic_arrow_orange.png") no-repeat scroll 184px #fff;}
+#contentRow ul li > ul> li > a.ms-core-listMenu-item:hover{background-color: #fff; color:#e36633; background: url("https://connect.gsk.com/sites/ama/_layouts/15/IMAGES/GSK/gsk_basic_arrow_orange.png") no-repeat scroll 184px #fff;}
+.ms-core-listMenu-verticalBox ul.root > LI.static > A{padding: 10px 10px 10px 0px!important;}
+.ms-core-listMenu-verticalBox ul.root > LI.static > A.ms-core-listMenu-item{background:#fff!important;}
+.ms-core-listMenu-verticalBox ul.root > LI.static > SPAN.ms-core-listMenu-item{padding: 9px 10px 10px 0px!important;}
+
+/* general over-rides */
+#iop-holder #iop-header{margin:0!important;}
+.breadcrumbCurrentNode{padding-right: 9px;}
+#s4-titlerow{height:80px;}
+.gsksitemap{height:80px;}
+table.ms-listviewtable{width:100%!important;}
+#iop-holder .multiType li .imageLink{height:264px!important;}
+#contentRow{padding-top:0;margin-top:0;}
+#sideNavBox{width:190px;margin-top:-23px;}
+#s4-ribbonrow{    width: 1226px!important;}
+.breadcrumb{padding:10px 0;}
+.ms-breadcrumb-box{}
+#iop-header{margin:0;}
+h2{font-family:arial!important;}
+#iop-header h2{padding: 0;line-height: 0.7em!important;    padding: 0 0 20px 0!important;}
+.ms-core-brandingText{ padding-left: 0px;}
+#s4-bodyContainer{overflow:visible!important;}
+#DeltaPlaceHolderMain{margin-top:60px;}
+
+/* Top header over-rides */
+
+.secondaryheader{height:40px;background:#fff;margin-top:-1px;position:relative;}
+.secondaryheader > li{display:none;}
+.chmenuitem{background:#f0efed;}
+a.chmenuiteminner: visited{background:#f0efed;font-weight:bold;color:#72635c}
+a.chmenuiteminner{background:#f0efed;font-weight:bold;color:#72635c}
+a.chmenuiteminner:hover{background:#f0efed;font-weight:bold;}
+.sectionDecoration{display:none;}
+.inneritem{position:relative;left:75px; top:-41px;padding:10px 15px 12px 15px;background:#f0efed; width:150px}
+
+/*  Mega Menu Styling  */
+
+ul.megamenu {margin: 0;padding: 5px 0 0px 6px;list-style: none;position:absolute;top:0;height:32px;width:1222px;    background: #f0efed;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;border-bottom: 1px solid #d5d1ce;border-left: 1px solid #d5d1ce;border-right: 1px solid #d5d1ce;padding-bottom: 3px;}
+ul.megamenu li.mm-item {float:left;}
+ul.megamenu li {  margin: 0;  padding: 0px;}
+uil.megamenu > li{height:36px;}
+ul.megamenu li.clear-fix {  float: none;  clear: both;  margin: 0px;  padding: 0px;  height: 0px;  font-size: 0px;  line-height: 0px;}
+ul.megamenu a.mm-item-link:link, ul.megamenu a.mm-item-link:visited {    height: 24px;  position: relative;display: inline-block;color: #646464;padding: 8px 20px 8px 13px;margin: 0px 16px 0px 0px;text-decoration: none;font-size: 14px;background: url('../img/gsk_basic_dd_arrow_white_small_1.png') no-repeat right 11px!important;}
+ul.megamenu div.mm-item-content {  display:none; background: #f0efed;  padding: 0px;  position: absolute;  z-index: 9;margin-top:-5px;}
+.mm-content-base {  background: #f0efed;  position: relative;    padding: 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.mm-js-shadow {  background: #555;  position: absolute;  display:none;}
+
+.megamenucontent{position:relative;width:250px; height:auto;    border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;border-bottom: 1px solid #d5d1ce;border-left: 1px solid #d5d1ce;border-right: 1px solid #d5d1ce;}
+
+/*Inner menu styling for the mega menu */
+.mm-content-base{padding: 5px 5px 5px 5px;}
+.mm-content-base ul{list-style: none;margin: 0 5px 5px 5px;padding: 5px 5px 5px 13px;background: #fff;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.mm-content-base ul li{margin: 10px 0;padding: 0 0 0 15px;background: url("https://connect.gsk.com/sites/ama/_layouts/15/IMAGES/GSK/gsk_basic_arrow_orange.png") no-repeat 0 4px #fff;}
+.mm-content-base ul li a:visited{color:#72635c; text-decoration:none;}
+.mm-content-base ul li a{color:#72635c; text-decoration:none;}
+.mm-content-base ul li a:hover{color:#f36633; text-decoration:none;}
+
+.mm-content-base ul li.haschild .expandable{float: right;width: 16px;height: 17px;background: url("/sites/Cx/Documents/DigitalComms/HomePageDesign/img/expand.png") 0px 0px;margin-top: 1px;margin-right: 5px;}
+.mm-content-base ul li.haschild .expandable:hover{cursor:pointer;}
+.mm-content-base ul li.haschild  .expandable.selected{background-position:0 16px;}
+
+.mm-content-base ul li.haschild ul{display:none;margin:0;padding:1px 3px 0px 0;}
+.mm-content-base ul li.haschild ul li{margin-right:10px;}
+
+.megamenucontent ul li h2{margin:20px 0 5px 0; padding:7px 2px 7px 12px;font-size:14px; color:#72635d;background:url("/sites/Cx/Documents/DigitalComms/HomePageDesign/img/RIGHTARROW.png") no-repeat scroll 221px 11px #fff;}
+.megamenucontent ul li h2.empty{background:none;background-color: #fff;}
+.megamenucontent ul li h2 a.graylink:visited{color:#72635d;text-decoration:none;}
+.megamenucontent ul li h2 a.graylink{color:#72635d;text-decoration:none;}
+.megamenucontent ul li h2 a.graylink:hover{color:#72635d;text-decoration:none;}
+.megamenucontent ul li p{padding:0; margin:8px 13px 4px 13px;font-size:12px; color:#72635d;font-family:arial;max-height:44px; overflow:hidden;}
+.megamenucontent ul.left{margin:0; padding:0; float:left;width:520px;position:relative;margin:0 0 20px 20px;list-style:none;}
+.megamenucontent ul.left li{float:left; width:240px;margin-right:20px;}
+.megamenucontent ul.left > li{height:190px;}
+.megamenucontent ul.left li ul{margin:0 0 0 12px; padding:0; list-style:none;}
+.megamenucontent ul.left li ul li{padding: 3px 0 3px 22px;background:url("/sites/Cx/Documents/DigitalComms/HomePageDesign/img/bulletblue.jpg") no-repeat scroll left 6px transparent; font-family:arial;width:85%;}
+.megamenucontent ul.left li ul li a:visited{font-size:12px; color:#72635d;text-decoration:none;}
+.megamenucontent ul.left li ul li a{font-size:12px; color:#72635d;text-decoration:none;}
+.megamenucontent ul.left li ul li a:hover{font-size:12px; color:#6f6f6f;text-decoration:none;}
+.megamenucontent ul.right{margin:0; padding:0; float:left;width:240px;background:#fff;margin-top:20px;height:364px; margin-bottom:20px;}      
+.megamenucontent ul.right h2{margin:0; padding:7px 2px 7px 12px;font-size:14px; color:#72635d;background:#fff;list-style:none;}
+.megamenucontent ul.right ul {margin:0; padding:0 0 0 13px; list-style:none;}
+.megamenucontent ul.right ul li{font-size:12px; color:#72635d; padding: 3px 0 3px 22px;background:url("/sites/Cx/Documents/DigitalComms/HomePageDesign/img/bullet.jpg") no-repeat scroll left 6px transparent; font-family:arial;}
+.megamenucontent ul.right ul li a:visited{font-size:12px; color:#72635d;text-decoration:none;}
+.megamenucontent ul.right ul li a{font-size:12px; color:#72635d;text-decoration:none;}
+.megamenucontent ul.right ul li a:hover{font-size:12px; color:#72635d;text-decoration:none;}
+.regions ul.left {width:100%;}
+.regions ul.left li{width:240px;}
+
+.supplychain ul.left{margin:10px;}
+.supplychain ul.left > li{height:auto;}
+
+.randd ul.left{margin:10px;}
+.randd ul.left > li{height:auto;}
+
+.winningformula ul.left{margin:10px;}
+.winningformula ul.left > li{height:auto;}
+
+.ourbusiness ul.left {width:100%;}
+.categories ul.right{overflow:hidden;}
+
+/* IOP Template overrides */
+
+div#carouselone #topcarouselList img{display:none;}
+#iop-holder .multiType li .imageLink .link-item a, #iop-holder #twoWidthImageBoxColumn li .link-item a{line-height: 21px!important; background-position: 0px 11px!important;}
+#iop-holder .multiType li .imageLink .link-item, #iop-holder #twoWidthImageBoxColumn li .link-item{ bottom: initial!important;top:202px;}
+#iop-holder #twoWidthImageBoxColumn li{height: 256px!important;}
+div#carouselone div#listHolder #topcarouselList li{border-top:solid 1px #fff;height:81px!important;}
+#iop-holder #full-holder .freezone{margin-top:0!important;}
+#s4-workspace{/*border-top: 1px solid #f0efed;*/}
+#globalNavBox{background:#fff;}
+.ms-cui-topBar2{border-bottom:none;}
+
+#GSKSmallSearchInputBox{    border-radius: 5px;padding: 6px;margin-right: -18px;border: 1px solid #d5d1ce;}
+.customsearch .ms-sbscopes{border: 1px solid #d5d1ce;padding: 5px;height: 36px!important;border-radius: 5px;}
+.gsksitemap{    border-top-left-radius: 5px;border-top-right-radius: 5px;    border-top: 1px solid #f36633;}
+#contentBox { margin-left: 217px;}
